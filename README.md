@@ -1,12 +1,10 @@
-### Script to check whether an IP address is balcklisted
 
 #!/bin/bash
 
-###################################
+
 #Corect method to check :
-#
 #./ipblacklistchecker.sh IP address 
-##################################  
+
 
 
 
