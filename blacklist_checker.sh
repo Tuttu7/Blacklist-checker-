@@ -116,7 +116,7 @@ listed="$(dig +short -t a ${reverse}.${BL}.)"
 done
    
 
-#echo ${listed:---}
 
 
-#done
+
+
