@@ -101,9 +101,25 @@ printf "%-60s" " ${reverse}.${BL}."
 
 listed="$(dig +short -t a ${reverse}.${BL}.)"
 
-echo ${listed:---}
+if [[ $listed ]]; then
 
+    if [[ $listed == *"timed out"* ]]; then
+
+       echo "[timed out]" 
+
+   else
+
+      echo "[blacklisted] (${listed})" 
+
+   fi
+ else
+
+    echo "[not listed]"
+ fi
 
 done
+
+
+
 
 ```
