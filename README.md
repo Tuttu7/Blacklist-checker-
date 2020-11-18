@@ -2,7 +2,7 @@ A DNSBL (Domain Name System Black List) is a list of IP address basically relate
 
 If an IP is not black listed in a DNSBL, the query will return NXDOMAIN. If the IP is black listed, the query will return an address as code. The value of the last octet will indicate the category or the reason why this IP is black listed.
 
-The thing is that, each DNSBL has her own value for each category in addition to have their own policies.
+The thing is that, each DNSBL has her own value for each category in addition to have their own policies.:monocle_face:
 
  An example return codes for Spamhaus :
 
