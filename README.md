@@ -4,7 +4,7 @@ If an IP is not black listed in a DNSBL, the query will return NXDOMAIN. If the 
 
 The thing is that, each DNSBL has her own value for each category in addition to have their own policies.
 
-#An example return codes for Spamhaus :
+# An example return codes for Spamhaus :
 
 ```
 Address 	Detail
