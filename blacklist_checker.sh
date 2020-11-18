@@ -2,7 +2,7 @@
 ###################################
 #  Corect method to check :
 #
-# ./ipblacklistchecker.sh IP address 
+# ./blacklist_checker.sh IP address 
 ##################################  
 
 
