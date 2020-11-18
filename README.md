@@ -7,7 +7,7 @@ The thing is that, each DNSBL has her own value for each category in addition to
 An example return codes for Spamhaus :
 
 ```
-Adresse 	Detail
+Address 	Detail
 127.0.0.2,3,9 	Static UBE sources, verified spam services (hosting or support) and ROKSO spammers
 127.0.0.4-7 	Illegal 3rd party exploits, including proxies, worms and trojan exploits
 127.0.0.10,11 	IP ranges which should not be delivering unauthenticated SMTP email.
