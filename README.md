@@ -14,7 +14,7 @@ Address |  Detail
 127.0.0.10,11 |	IP ranges which should not be delivering unauthenticated SMTP email.
 
 
-Working Exapmle :
+Working Example :
 
 For a DNS A query with Spamhaus and the IP 217.197.83.197, we need to reverse the order of octets :
 
