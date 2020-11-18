@@ -4,7 +4,7 @@ If an IP is not black listed in a DNSBL, the query will return NXDOMAIN. If the 
 
 The thing is that, each DNSBL has her own value for each category in addition to have their own policies.:monocle_face:
 
- An example return codes for Spamhaus :
+ _An example return codes for Spamhaus_ :
 
 
 Address |  Detail
@@ -14,7 +14,7 @@ Address |  Detail
 127.0.0.10,11 |	IP ranges which should not be delivering unauthenticated SMTP email.
 
 
-Working Example :
+_Working Example_ :
 
 For a DNS A query with Spamhaus and the IP 217.197.83.197, we need to reverse the order of octets :
 
