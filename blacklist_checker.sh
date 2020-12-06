@@ -4,7 +4,7 @@
 #
 # ./blacklist_checker.sh IP address 
 ##################################  
-
+RED='\033[0;31m'
 
 
 BLISTS="
@@ -105,7 +105,7 @@ listed="$(dig +short -t a ${reverse}.${BL}.)"
 
    else
 
-      echo "[blacklisted] (${listed})" 
+      echo -e "${RED} [blacklisted] (${listed}) \e[0m" 
 
    fi
  else 
